@@ -7,11 +7,14 @@ h1{
     font-size: 50px;
 }
 
+h2{
+    font-size: 40px;
+}
 .orange-color{
     color:orange
 }
 
-section{
+.flexible-containar{
     display: flex;
     margin-bottom: 100px;
 }
@@ -56,3 +59,28 @@ section{
     margin-left: 50px;
     margin-top: 200px;
 }
+
+.experience-aria{
+    background-image:url(images/exp-bg.png) ;
+    background-repeat: no-repeat;
+    background-position:left;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 25px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px grey;
+}
+#as-a-arabic-student{
+    border-left: 7px solid tomato;
+}
+#junior-web-developar{
+    border-left: 7px solid rgb(84, 174, 234);
+    
+}
+footer{
+    text-align: center;
+}
+
