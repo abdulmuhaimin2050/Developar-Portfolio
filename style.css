@@ -13,6 +13,7 @@ h1{
 
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width{
@@ -36,4 +37,22 @@ section{
 .top-bennar{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream-big{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.second-chapter{
+    width: 50%;
+}
+.second-chapter img{
+    width: 110%;
+}
+#second-img{
+    width: 40%;
+    margin-left: 50px;
+    margin-top: 200px;
 }
